@@ -20,7 +20,7 @@ The example shows how we attacked the tcache management struct. We can also atta
 
 # Acknowledge
 - This bug is found by [@Swing][1].
-- The root cause of this bug is in this [file]
+- The root cause of this bug is in this [file][2]
 
 
 [1]: https://github.com/WinMin
