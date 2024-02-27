@@ -25,5 +25,5 @@ The example shows how we attacked the tcache management struct. We can also atta
 
 [1]: https://github.com/WinMin
 [2]: https://codebrowser.dev/glibc/glibc/sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S.html#541
-[3]: ./heap
-[4]: ./stack
+[3]: ./Heap
+[4]: ./Stack
