@@ -4,8 +4,9 @@ Retro Overflow for `memcpy` when you can control the third parameter of it.
 
 
 # tl;dr
-Assume we have control of the third parameter of `memcpy(dst,src,len)`:
-- We can attack any address lower than `dst`. For example, you can attack `libc_data` if `dst` is a stack address.
+Assume we have control of the third parameter of `memcpy(dst,src,len)`. Then
+
+We can attack any address lower than `dst`. For example, you can attack `libc_data` if `dst` is a stack address.
 
 
 # [Stack-Poc][4]
