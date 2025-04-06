@@ -25,7 +25,7 @@ If this case is too ideal, we can leak libc/heap and then attack libc/heap to ex
 The example shows how we attacked the tcache management struct. We can also attack other chunks. For example, the freed chunk and overwrite its fd to link a fake chunk into the `tcache`.
 
 # Acknowledge
-- This bug is found by [@Swing][1].
+- This bug is found by [@Swing][1] [@leommxj] [@n132].
 - The root cause of this bug is in this [file][2]
 
 
@@ -33,3 +33,4 @@ The example shows how we attacked the tcache management struct. We can also atta
 [2]: https://codebrowser.dev/glibc/glibc/sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S.html#541
 [3]: ./Heap
 [4]: ./Stack
+[5]: https://github.com/leommxj
